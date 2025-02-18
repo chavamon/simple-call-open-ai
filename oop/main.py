@@ -22,6 +22,7 @@ elif api_key.strip() != api_key:
     print("An API key was found, but it looks like it might have space or tab characters at the start or end - please remove them - see troubleshooting notebook")
 else:
     print("API key found and looks good so far!")
+    logger.info("API key found")
 
 openai = OpenAI()
 
