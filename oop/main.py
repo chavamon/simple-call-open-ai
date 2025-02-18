@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
-from openai import OpenAI
 import logging
+from openai import OpenAI
 
 # Logging configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
